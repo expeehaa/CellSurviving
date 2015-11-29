@@ -1,0 +1,55 @@
+﻿<Window x:Class="Cellsurviving.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cellsurviving"
+        mc:Ignorable="d"
+        Title="Cell Surviving" Height="350" Width="525" Closing="Window_Closing" MouseMove="Window_MouseMove" KeyDown="Window_KeyDown" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <ProgressBar Name="liveBar" HorizontalAlignment="Stretch" Margin="5,5,5,0" VerticalAlignment="Top" Height="15" Foreground="#FFA81203" Value="100" Panel.ZIndex="5" ValueChanged="liveBar_ValueChanged"/>
+
+        <Grid Name="playgrid" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch">
+            <Ellipse Name="character" Fill="#00FFFF" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="20"/>
+        </Grid>
+
+        <Grid Name="endgrid" Panel.ZIndex="100" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.RowSpan="2" Background="#FFA0A0A0" Opacity="0.5" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Row="1" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Panel.ZIndex="101">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                
+                <Label Name="endgrid_title" Content="You died!" HorizontalAlignment="Stretch" Grid.Row="0" VerticalAlignment="Stretch" Panel.ZIndex="102" FontSize="16" FontWeight="Bold" Foreground="Red"/>
+                <Label Name="endgrid_text" Content="" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" Panel.ZIndex="102"/>
+                <Grid HorizontalAlignment="Stretch" Margin="0,18.797,0,0" Grid.Row="2" VerticalAlignment="Stretch" Panel.ZIndex="102">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Name="endgrid_restart" Content="Restart" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Margin="5,4,5,4" Panel.ZIndex="103" Click="endgrid_restart_Click"/>
+                    <Button Name="endgrid_close" Content="Close" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Margin="5,4,5,4" Panel.ZIndex="103" Click="endgrid_close_Click"/>
+
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

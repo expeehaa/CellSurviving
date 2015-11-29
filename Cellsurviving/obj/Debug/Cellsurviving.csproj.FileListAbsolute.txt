@@ -1,0 +1,14 @@
+c:\users\lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\bin\Debug\Cellsurviving.exe.config
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\bin\Debug\Cellsurviving.exe
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\bin\Debug\Cellsurviving.pdb
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\MainWindow.g.cs
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\App.g.cs
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\Cellsurviving_MarkupCompile.cache
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\Cellsurviving_MarkupCompile.lref
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\MainWindow.baml
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\Cellsurviving.g.resources
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\Cellsurviving.Properties.Resources.resources
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\Cellsurviving.csproj.GenerateResource.Cache
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\Cellsurviving.exe
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\Cellsurviving.pdb
+C:\Users\Lukas\Documents\Visual Studio 2013\Projects\Cellsurviving\Cellsurviving\obj\Debug\Cellsurviving.csprojResolveAssemblyReference.cache
